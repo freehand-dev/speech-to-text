@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31112.23
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsoleApp1", "Google.Cloud.Speech.V1\ConsoleApp1\ConsoleApp1.csproj", "{98AB67E1-FAA9-481E-9EA5-7CD821D060D8}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Google.Cloud.Speech.V1", "Google.Cloud.Speech.V1", "{A0B600E0-908E-4EC8-B0D5-E77C25BA9A82}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Microsoft.CognitiveServices.Speech", "Microsoft.CognitiveServices.Speech", "{C6D55323-9358-42F7-88C8-409C6B92B001}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp2", "Microsoft.CognitiveServices.Speech\ConsoleApp2\ConsoleApp2.csproj", "{25075BF3-D9E4-4FCE-9416-3FC35294F7E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98AB67E1-FAA9-481E-9EA5-7CD821D060D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98AB67E1-FAA9-481E-9EA5-7CD821D060D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98AB67E1-FAA9-481E-9EA5-7CD821D060D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98AB67E1-FAA9-481E-9EA5-7CD821D060D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25075BF3-D9E4-4FCE-9416-3FC35294F7E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25075BF3-D9E4-4FCE-9416-3FC35294F7E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25075BF3-D9E4-4FCE-9416-3FC35294F7E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25075BF3-D9E4-4FCE-9416-3FC35294F7E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{98AB67E1-FAA9-481E-9EA5-7CD821D060D8} = {A0B600E0-908E-4EC8-B0D5-E77C25BA9A82}
+		{25075BF3-D9E4-4FCE-9416-3FC35294F7E0} = {C6D55323-9358-42F7-88C8-409C6B92B001}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {69151125-F62D-459E-903F-25A459C8258B}
+	EndGlobalSection
+EndGlobal

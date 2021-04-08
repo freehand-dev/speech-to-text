@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Google.Apis" Version="1.51.0" />
+    <PackageReference Include="Google.Cloud.Speech.V1" Version="2.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="storied-port-309213-26eff02530da.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
